@@ -12,5 +12,6 @@ export default createGlobalStyle`
     font-size: 14px;
     color: ${(props) => props.theme.colors.text.primary};
     font-family: sans-serif;
+    overflow-x: hidden;
   }
 `;

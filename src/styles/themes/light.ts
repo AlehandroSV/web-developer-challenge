@@ -6,7 +6,7 @@ export default {
     secondary: "#2b2b2b",
     tertiary: "#313131",
 
-    background: "#343434",
+    background: "#fff",
 
     text: {
       primary: "#9f9f9f",
