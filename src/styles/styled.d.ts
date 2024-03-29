@@ -10,8 +10,12 @@ declare module "styled-components" {
       tertiary: string;
 
       background: string;
-      text: string;
-      textMuted: string;
+
+      text: {
+        primary: string;
+        secondary: string;
+        muted: string;
+      };
     };
   }
 }

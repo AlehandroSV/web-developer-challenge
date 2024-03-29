@@ -18,9 +18,9 @@ export default function Header({ toggleTheme }: HeaderType) {
 
       <Button onClick={toggleTheme}>
         {theme?.title === "dark" ? (
-          <Moon color={theme.colors.text} />
+          <Moon color={theme.colors.text.primary} />
         ) : (
-          <Sun color={theme?.colors.text} />
+          <Sun color={theme?.colors.text.primary} />
         )}
       </Button>
     </Container>

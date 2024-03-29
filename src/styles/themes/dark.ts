@@ -8,7 +8,10 @@ export default {
 
     background: "#343434",
 
-    text: "#9f9f9f",
-    textMuted: "#5f5f5f",
+    text: {
+      primary: "#9f9f9f",
+      secondary: "#7a7a7a",
+      muted: "#5f5f5f",
+    },
   },
 };
