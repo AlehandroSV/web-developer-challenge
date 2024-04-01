@@ -1,5 +1,5 @@
 import {
-  CardBackgroudType,
+  CardBackgroundType,
   CardMessageType,
   CardAuthorType,
   CardImageType,
@@ -13,10 +13,10 @@ import {
   Message,
 } from "./styles";
 
-function CardBackgroud({ children, style }: CardBackgroudType) {
+function CardBackground({ children, style }: CardBackgroundType) {
   return <Container style={style}>{children}</Container>;
 }
-CardBackgroud.displayName = "Card.Backgroud";
+CardBackground.displayName = "Card.Background";
 
 function CardImage({ url }: CardImageType) {
   return <Image src={url} />;
@@ -39,7 +39,7 @@ function CardAuthor({ name }: CardAuthorType) {
 CardAuthor.displayName = "Card.Author";
 
 const Card = {
-  Backgroud: CardBackgroud,
+  Background: CardBackground,
   Image: CardImage,
   Text: CardMessage,
   Author: CardAuthor,

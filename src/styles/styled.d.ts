@@ -10,6 +10,7 @@ declare module "styled-components" {
       tertiary: string;
 
       background: string;
+      inputBackgroud: string;
 
       text: {
         primary: string;

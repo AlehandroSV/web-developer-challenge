@@ -7,6 +7,7 @@ export default {
     tertiary: "#313131",
 
     background: "#fff",
+    inputBackgroud: "#000",
 
     text: {
       primary: "#9f9f9f",

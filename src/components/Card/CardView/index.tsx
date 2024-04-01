@@ -1,5 +1,5 @@
-import Card from ".";
-import { CardAuthorType, CardImageType, CardMessageType } from "./types";
+import Card from "..";
+import { CardAuthorType, CardImageType, CardMessageType } from "../types";
 
 interface CardViewProps
   extends CardAuthorType,
@@ -8,7 +8,7 @@ interface CardViewProps
 
 export default function CardView({ name, text, url }: CardViewProps) {
   return (
-    <Card.Backgroud
+    <Card.Background
       style={{
         display: "flex",
         flexDirection: "row",
@@ -29,6 +29,6 @@ export default function CardView({ name, text, url }: CardViewProps) {
 
         <Card.Author name={name}></Card.Author>
       </div>
-    </Card.Backgroud>
+    </Card.Background>
   );
 }

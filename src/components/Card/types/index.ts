@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 
-export type CardBackgroudType = {
+export type CardBackgroundType = {
   children: React.ReactNode;
   style?: CSSProperties | undefined;
 };
